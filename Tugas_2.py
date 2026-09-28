@@ -1,8 +1,7 @@
-def hitung_volume_kerucut(tinggi, jari_jari):
-    volume = (1/3) * 3.14 * (jari_jari ** 2) * tinggi
-    return volume
+#Menghitung Volume Kerucut
+jari_jari = 7
+tinggi = 12 
+pi = 22 / 7
 
-jari_jari = float(input("Masukkan jari-jari kerucut: "))
-tinggi = float(input("Masukkan tinggi kerucut: "))
-volume = hitung_volume_kerucut(tinggi, jari_jari)
-print(f"Volume kerucut adalah: {volume}")
+volume = (1/3) * pi * jari_jari * jari_jari * tinggi
+print("Volume kerucut =", volume, "cm³")
